@@ -1,0 +1,246 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.colorpath{
+    fill: #fd5722;
+}
+
+.home{
+    width: 1280px;
+    margin: auto;
+}
+
+.aboutMe{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.text-aboutMe{
+    width: 50%;
+    align-items: center;
+}
+
+.webdeveloper{
+    font-weight: 900;
+    opacity: 70%;
+    font-size: 1.75rem;
+    margin-left: 360px;
+}
+
+.learn-more{
+    width: 150px;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-top: 120px;
+    margin-right: 80px;
+    border: none;
+    background-color: #fd5722;
+    color: #ffffff;
+    float: right;
+    cursor: pointer;
+}
+
+.learn-more:hover{
+    border: 1px solid black;
+    background-color: #f7532d;  
+}
+
+.image-aboutMe{
+    width: 50%;
+    background:url('../../public/images/IMG_5145.png');
+    background-repeat: no-repeat;
+    background-size: 400px 550px;
+    background-position: top center;
+}
+
+.text-aboutMe > h2 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.text-aboutMe > p {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 240px;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.text-aboutMe > hr {
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    border: none;
+    position: absolute;
+    top:350px;
+    left: 250px;
+}
+
+.hobbies_interests{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #ededed;
+    border: 2px solid #dedede;
+    text-align: center;
+}
+
+.hobbies_interests > h1{
+    font-weight:200;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.hobbies{
+    width: 100%;
+    height: 210px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.text-svg{
+    font-size: 1.25rem;
+    padding-top: 30px;
+}
+
+.travelling{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+}
+
+.exercising{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+}
+
+.goingout{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+}
+
+.karting{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+}
+
+.watchingtv{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+}
+
+.programming{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+}
+
+.travelling > svg{
+    position: relative;
+    top: 35%;
+}
+
+.exercising > svg{
+    position: relative;
+    top: 35%;
+}
+
+.karting > svg{
+    position: relative;
+    top: 35%;
+}
+
+.watchingtv > svg{
+    position: relative;
+    top: 35%;
+}
+
+.programming > svg{
+    position: relative;
+    top: 35%;
+}
+
+.goingout > svg{
+    position: relative;
+    top: 35%;
+}
+
+.arrow{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url(../images/blackarrow.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    transform: scaleX(-1);
+    left: 48%;
+    top: 80%;
+}
+
+.container-joke{
+    width: 100%;
+    height: 50vh;
+    border-bottom:2px solid #ededed ;
+    margin-bottom: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/jokewp.png);
+    background-repeat: no-repeat;
+}
+
+.container-joke .joke{
+    width: 30vw;
+    height: auto;
+    margin: auto;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #ededed;
+}
+
+.joke h2{
+    margin-bottom: 30px;
+}
+
+.joke p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-align: justify;
+}
+
+.joke button{
+    margin-top: 3rem;
+    width: fit-content;
+    padding:1rem;
+    font-size: 1rem;
+    background-color: #fd5722;
+    color: #ffffff;
+    border: none;
+    cursor:pointer;
+}

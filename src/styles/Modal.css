@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.modalBackground{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer{
+    width: 500px;
+    height: 400px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+}
+
+.closeButton button {
+    border: none;
+    color: #ffffff;
+    border: 1px solid black;
+    width: 100px;
+    height: 2.5rem;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: #fd5722;
+}
+
+.modalContainer .modalTitle{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.modalContainer .modalText{
+    width: 400px;
+    margin-top: 30px;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.closex:hover{
+    color: #ffffff;
+}
+
+.name{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.course,.name,.number{
+    margin-bottom: 10px;
+}
+
+.coursetag,.numbertag{
+    font-weight: 900;
+}

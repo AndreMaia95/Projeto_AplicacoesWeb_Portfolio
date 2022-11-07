@@ -1,0 +1,86 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.footer{
+    color: white;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: #fd5722;
+}
+
+.social-media{
+    width:100%;
+    height: 200px;
+    background-color:#292929;
+    display: flex;
+}
+
+.text{
+    width:70%;
+    height:100px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.text > h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.rights{
+    width:100%;
+    height:50px;
+    background-color: #030303;
+}
+
+.rights > span {
+    padding-top:15px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais{
+    width: 30%;
+    padding: 20px;
+}
+
+.TwitterBox{
+    width:40px;
+    height: 40px;
+    background-color: #5c5c5c;
+    text-align: center;
+    margin: 10px;
+}
+
+.TwitterBox:hover{
+    background-color: #fd5722;
+}
+
+.InstaBox{
+    width:40px;
+    height: 40px;
+    background-color: #5c5c5c;
+    text-align: center;
+    margin: 10px;
+}
+
+.InstaBox:hover{
+    background-color: #fd5722;
+}
+
+.LinkBox{
+    width:40px;
+    height: 40px;
+    background-color: #5c5c5c;
+    text-align: center;
+    margin: 10px;
+}
+
+.LinkBox:hover{
+    background-color: #fd5722;
+}
